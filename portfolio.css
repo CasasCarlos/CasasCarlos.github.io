@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Federant|Kumar+One+Outline');
+
+body{
+ background-image: url("https://www.hdwallpapers.in/walls/spectrum_of_the_sky_hdtv_1080p-HD.jpg");
+ image-orientation: cover;
+ background-size: cover;
+ margin: 0px;
+ text-align: center;
+ background-position: top;
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+ height: 100%;
+
+}
+
+h1{
+ text-align: center; 
+ color: aliceblue;
+ font-family: 'Kumar One Outline', cursive;
+ font-family: 'Federant', cursive;
+}
+
+p{
+  font-family: 'Kumar One Outline', cursive;
+  font-family: 'Federant', cursive;
+  color: rgb(214, 214, 214);
+  text-align: center;
+  background-color: rgba(0, 148, 160, 0.79);
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#nav-bar{
+ background-color: rgba(0, 0, 0, 0.85);
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+li{
+ float: left;
+}
+
+li a{
+ color: aliceblue;
+ font-family: 'Kumar One Outline', cursive;
+ font-family: 'Federant', cursive;
+ text-align: center;
+ display: block;
+ padding:  10px 15px;
+}
+
+#apStats{
+ margin: 0% 75% 0% 25%;
+ border-radius: 8px;
+}
+
+.container{
+ display: flex;
+}
+
+.column{
+ flex: 2;
+}
+
+img{
+ width: 60%;
+ height: 60%;
+}
+
+.active, .dream:hover {
+ background-color: #202020;
+ color: aliceblue;
+}
+
+#poem{
+ flex: 1;
+}
+
+object{
+ margin: 10px 50px 10px 50px;
+}
+
